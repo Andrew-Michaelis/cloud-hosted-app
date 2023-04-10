@@ -4,12 +4,12 @@ import { getFirestore } from '@firebase/firestore';
 // console.log(process.env);
 
 const firebaseConfig = {
-  apiKey: process.env.APIKEY,
+  apiKey: "AIzaSyBgAt7Fa9N6GYdszXHfzZ6nKJvNSDQ31HU",
   authDomain: "amichaelis-cloud-hosted-app.firebaseapp.com",
   projectId: "amichaelis-cloud-hosted-app",
   storageBucket: "amichaelis-cloud-hosted-app.appspot.com",
   messagingSenderId: "692926387346",
-  appId: process.env.APIID,
+  appId: "1:692926387346:web:46ac4f385057535791424b",
   measurementId: "G-5J6JTH75WM"
 };
 
