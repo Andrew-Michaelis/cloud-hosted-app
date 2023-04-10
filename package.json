@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "yarn run build",
+    "build": "react-dom build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
   },
