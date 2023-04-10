@@ -1,13 +1,15 @@
+import 'dotenv';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from '@firebase/firestore';
+// console.log(process.env);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBgAt7Fa9N6GYdszXHfzZ6nKJvNSDQ31HU",
+  apiKey: process.env.APIKEY,
   authDomain: "amichaelis-cloud-hosted-app.firebaseapp.com",
   projectId: "amichaelis-cloud-hosted-app",
   storageBucket: "amichaelis-cloud-hosted-app.appspot.com",
   messagingSenderId: "692926387346",
-  appId: "1:692926387346:web:46ac4f385057535791424b",
+  appId: process.env.APIID,
   measurementId: "G-5J6JTH75WM"
 };
 
